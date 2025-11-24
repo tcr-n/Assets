@@ -1,0 +1,495 @@
+[
+    {
+        "companyId": "FR-IDFM",
+        "companyLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/idfm.png",
+        "width": 150.0,
+        "height": 100.0,
+        "gtfsRTUrl": "http://gtfsidfm.clarifygdps.com/gtfs-rt-alerts-idfm",
+        "lines": [
+            [
+                {
+                    "transportLogo": "assets/icons/transportMode/rer_white.png",
+                    "width": 50.0,
+                    "height": 50.0
+                },
+                {
+                    "lineId": "IDFM:C01742",
+                    "lineName": "RER A",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/rer/RER_A_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01743",
+                    "lineName": "RER B",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/rer/RER_B_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01727",
+                    "lineName": "RER C",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/rer/RER_C_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01728",
+                    "lineName": "RER D",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/rer/RER_D_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01729",
+                    "lineName": "RER E",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/rer/RER_E_couleur_RVB.png",
+                    "scale": 1.0
+                }
+            ],
+            [
+                {
+                    "transportLogo": "assets/icons/transportMode/metro_white.png",
+                    "width": 50.0,
+                    "height": 50.0
+                },
+                {
+                    "lineId": "IDFM:C01371",
+                    "lineName": "Métro 1",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_1_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01372",
+                    "lineName": "Métro 2",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_2_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01373",
+                    "lineName": "Métro 3",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_3_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01386",
+                    "lineName": "Métro 3bis",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_3B_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01374",
+                    "lineName": "Métro 4",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_4_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01375",
+                    "lineName": "Métro 5",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_5_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01376",
+                    "lineName": "Métro 6",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_6_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01377",
+                    "lineName": "Métro 7",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_7_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01387",
+                    "lineName": "Métro 7bis",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_7B_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01378",
+                    "lineName": "Métro 8",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_8_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01379",
+                    "lineName": "Métro 9",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_9_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01380",
+                    "lineName": "Métro 10",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_10_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01381",
+                    "lineName": "Métro 11",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_11_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01382",
+                    "lineName": "Métro 12",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_12_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01383",
+                    "lineName": "Métro 13",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_13_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01384",
+                    "lineName": "Métro 14",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_14_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "",
+                    "lineName": "Métro 15",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_15_couleur_RVB.png",
+                    "scale": 1.0,
+                    "isDisabled": true
+                },
+                {
+                    "lineId": "",
+                    "lineName": "Métro 16",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_16_couleur_RVB.png",
+                    "scale": 1.0,
+                    "isDisabled": true
+                },
+                {
+                    "lineId": "",
+                    "lineName": "Métro 17",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_17_couleur_RVB.png",
+                    "scale": 1.0,
+                    "isDisabled": true
+                },
+                {
+                    "lineId": "",
+                    "lineName": "Métro 18",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/metro/metro_18_couleur_RVB.png",
+                    "scale": 1.0,
+                    "isDisabled": true
+                }
+            ],
+            [
+                {
+                    "transportLogo": "assets/icons/transportMode/tram_white.png",
+                    "width": 50.0,
+                    "height": 50.0
+                },
+                {
+                    "lineId": "IDFM:C01389",
+                    "lineName": "Tramway T1",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_1_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01390",
+                    "lineName": "Tramway T2",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_2_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01391",
+                    "lineName": "Tramway T3a",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_3a_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01679",
+                    "lineName": "Tramway T3b",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_3b_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01843",
+                    "lineName": "Tramway T4",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_4_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01684",
+                    "lineName": "Tramway T5",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_5_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01794",
+                    "lineName": "Tramway T6",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_6_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01774",
+                    "lineName": "Tramway T7",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_7_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01795",
+                    "lineName": "Tramway T8",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_8_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C02317",
+                    "lineName": "Tramway T9",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_9_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C02528",
+                    "lineName": "Tramway T10",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_10_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01999",
+                    "lineName": "Tramway T11",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_11_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C02529",
+                    "lineName": "Tramway T12",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_12_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C02344",
+                    "lineName": "Tramway T13",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_13_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C02732",
+                    "lineName": "Tramway T14",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tram_14_couleur_RVB.png",
+                    "scale": 1.0
+                }
+            ],
+            [
+                {
+                    "transportLogo": "assets/icons/transportMode/train_white.png",
+                    "width": 50.0,
+                    "height": 50.0
+                },
+                {
+                    "lineId": "IDFM:C01737",
+                    "lineName": "Transilien H",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/transilien/train_H_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01739",
+                    "lineName": "Transilien J",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/transilien/train_J_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01738",
+                    "lineName": "Transilien K",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/transilien/train_K_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01740",
+                    "lineName": "Transilien L",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/transilien/train_L_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01736",
+                    "lineName": "Transilien N",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/transilien/train_N_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01730",
+                    "lineName": "Transilien P",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/transilien/train_P_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01731",
+                    "lineName": "Transilien R",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/transilien/train_R_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C01741",
+                    "lineName": "Transilien U",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/transilien/train_U_couleur_RVB.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "IDFM:C02711",
+                    "lineName": "Transilien V",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/transilien/train_V_couleur_RVB.png",
+                    "scale": 1.0
+                }
+            ],
+            [
+                {
+                    "transportLogo": "assets/icons/transportMode/cable_white.png",
+                    "width": 50.0,
+                    "height": 50.0
+                },
+                {
+                    "lineId": "IDFM:C02666",
+                    "lineName": "Câble 1",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-idf/cable/cable_1_couleur_RVB.png",
+                    "scale": 1.0,
+                    "isDisabled": true
+                }
+            ]
+        ]
+    },
+    {
+        "companyId": "FR-STAR",
+        "companyLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/star.png",
+        "width": 150.0,
+        "height": 100.0,
+        "gtfsRTUrl": "https://proxy.transport.data.gouv.fr/resource/star-rennes-integration-gtfs-rt-alerts",
+        "lines": [
+            [
+                {
+                    "transportLogo": "assets/icons/transportMode/metro_white.png",
+                    "width": 50.0,
+                    "height": 50.0
+                },
+                {
+                    "lineId": "5-1001",
+                    "lineName": "Métro A",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/metro/A.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "5-1002",
+                    "lineName": "Métro B",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/metro/B.png",
+                    "scale": 1.0
+                }
+            ],
+            [
+                {
+                    "transportLogo": "assets/icons/transportMode/bus_white.png",
+                    "width": 50.0,
+                    "height": 50.0
+                },
+                {
+                    "lineId": "5-0001",
+                    "lineName": "Bus C1",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/C1.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "5-0002",
+                    "lineName": "Bus C2",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/C2.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "5-0003",
+                    "lineName": "Bus C3",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/C3.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "5-0004",
+                    "lineName": "Bus C4",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/C4.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "5-0005",
+                    "lineName": "Bus C5",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/C5.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "5-0006",
+                    "lineName": "Bus C6",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/C6.png",
+                    "scale": 1.0
+                },
+                {
+                    "lineId": "5-0007",
+                    "lineName": "Bus C7",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/C7.png",
+                    "scale": 0.5
+                },
+                {
+                    "lineId": "5-0047",
+                    "lineName": "Bus C7ex",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/C7ex.png",
+                    "scale": 0.3
+                }
+            ],
+            [
+                {
+                    "transportLogo": "assets/icons/transportMode/bus_white.png",
+                    "width": 50.0,
+                    "height": 50.0
+                },
+                {
+                    "lineId": "5-0010",
+                    "lineName": "Bus 10",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/10.png",
+                    "scale": 0.3
+                },
+                {
+                    "lineId": "5-0011",
+                    "lineName": "Bus 11",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/11.png",
+                    "scale": 0.3
+                },
+                {
+                    "lineId": "5-0012",
+                    "lineName": "Bus 12",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/12.png",
+                    "scale": 0.3
+                },
+                {
+                    "lineId": "5-0013",
+                    "lineName": "Bus 13",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/13.png",
+                    "scale": 0.3
+                },
+                {
+                    "lineId": "5-0014",
+                    "lineName": "Bus 14",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/14.png",
+                    "scale": 0.3
+                },
+                {
+                    "lineId": "5-0032",
+                    "lineName": "Bus 32",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/32.png",
+                    "scale": 0.3
+                },
+                {
+                    "lineId": "5-0034",
+                    "lineName": "Bus 34",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/34.png",
+                    "scale": 0.3
+                },
+                {
+                    "lineId": "5-0038",
+                    "lineName": "Bus 38",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/38.png",
+                    "scale": 0.3
+                },
+                {
+                    "lineId": "5-0039",
+                    "lineName": "Bus 39",
+                    "lineLogo": "https://clarifygdps.com/hexatransit/logo/fr-star/bus/39.png",
+                    "scale": 0.3
+                }
+            ]
+        ]
+    }
+]
