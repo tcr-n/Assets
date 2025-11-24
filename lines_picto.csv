@@ -47,3 +47,10 @@ FR-IDFM;IDFM:C02732;T14;https://clarifygdps.com/hexatransit/logo/fr-idf/tram/tra
 FR-IDFM;IDFM:C02666;C1;https://clarifygdps.com/hexatransit/logo/fr-idf/cable/cable_1_couleur_RVB.png;CABLE_CAR;0;1
 FR-STAR;5-1001;A;https://clarifygdps.com/hexatransit/logo/fr-star/metro/A.png;SUBWAY;0;0
 FR-STAR;5-1002;B;https://clarifygdps.com/hexatransit/logo/fr-star/metro/B.png;SUBWAY;0;0
+FR-ASTUCE;90;M;https://clarifygdps.com/hexatransit/logo/fr-astuce/metro/M.png;SUBWAY;0;0
+FR-ASTUCE;91;T1;https://clarifygdps.com/hexatransit/logo/fr-astuce/tram/T1.png;TRAM;0;0
+FR-ASTUCE;92;T2;https://clarifygdps.com/hexatransit/logo/fr-astuce/tram/T2.png;TRAM;0;0
+FR-ASTUCE;93;T3;https://clarifygdps.com/hexatransit/logo/fr-astuce/tram/T3.png;TRAM;0;0
+FR-ASTUCE;94;T4;https://clarifygdps.com/hexatransit/logo/fr-astuce/tram/T4.png;TRAM;0;0
+FR-ASTUCE;95;T5;https://clarifygdps.com/hexatransit/logo/fr-astuce/tram/T5.png;TRAM;0;0
+FR-ASTUCE;99;Calypso;https://clarifygdps.com/hexatransit/logo/fr-astuce/ferry/Calypso.png;FERRY;0;0
