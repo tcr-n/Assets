@@ -505,3 +505,13 @@ fr-semo;ATOUMOD006:Line:4:LOC;4;https://clarifygdps.com/hexatransit/logo/fr-semo
 fr-semo;ATOUMOD006:Line:7b:LOC;7b;https://clarifygdps.com/hexatransit/logo/fr-semo/bus/7b.png;BUS;0;0
 fr-semo;ATOUMOD006:Line:7a:LOC;7a;https://clarifygdps.com/hexatransit/logo/fr-semo/bus/7a.png;BUS;0;0
 fr-semo;ATOUMOD006:Line:C1:LOC;C1;https://clarifygdps.com/hexatransit/logo/fr-semo/bus/C1.png;BUS;1;0
+fr-transurbain;ATOUMOD004:Line:T1:LOC;T1;https://clarifygdps.com/hexatransit/logo/fr-transurbain/bus/T1.png;BUS;0;0
+fr-transurbain;ATOUMOD004:Line:T10:LOC;T10;https://clarifygdps.com/hexatransit/logo/fr-transurbain/bus/T10.png;BUS;0;0
+fr-transurbain;ATOUMOD004:Line:T2:LOC;T2;https://clarifygdps.com/hexatransit/logo/fr-transurbain/bus/T2.png;BUS;0;0
+fr-transurbain;ATOUMOD004:Line:T3:LOC;T3;https://clarifygdps.com/hexatransit/logo/fr-transurbain/bus/T3.png;BUS;0;0
+fr-transurbain;ATOUMOD004:Line:T4:LOC;T4;https://clarifygdps.com/hexatransit/logo/fr-transurbain/bus/T4.png;BUS;0;0
+fr-transurbain;ATOUMOD004:Line:T5:LOC;T5;https://clarifygdps.com/hexatransit/logo/fr-transurbain/bus/T5.png;BUS;0;0
+fr-transurbain;ATOUMOD004:Line:T6:LOC;T6;https://clarifygdps.com/hexatransit/logo/fr-transurbain/bus/T6.png;BUS;0;0
+fr-transurbain;ATOUMOD004:Line:T7:LOC;T7;https://clarifygdps.com/hexatransit/logo/fr-transurbain/bus/T7.png;BUS;0;0
+fr-transurbain;ATOUMOD004:Line:T8:LOC;T8;https://clarifygdps.com/hexatransit/logo/fr-transurbain/bus/T8.png;BUS;0;0
+fr-transurbain;ATOUMOD004:Line:T9:LOC;T9;https://clarifygdps.com/hexatransit/logo/fr-transurbain/bus/T9.png;BUS;0;0
