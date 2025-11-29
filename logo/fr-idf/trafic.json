@@ -304,12 +304,12 @@
                 "transportLogo": "assets/icons/transportMode/bus_white.png"
             },
             {
-                "lineId": "IDFM:C01206",
-                "lineName": "185",
+                "lineId": "IDFM:C01160",
+                "lineName": "132",
                 "lineLogo": {
-                    "textDisplay": "185",
-                    "color": "ff5a00",
-                    "textColor": "000000"
+                    "textDisplay": "TEST123456789",
+                    "color": "640082",
+                    "textColor": "ffffff"
                 }
             },
             {
