@@ -304,6 +304,14 @@
                 "transportLogo": "assets/icons/transportMode/bus_white.png"
             },
             {
+                "lineId": "IDFM:C01206",
+                "lineName": "185",
+                "lineLogo": {
+                    "color": "ff5a00",
+                    "textColor": "000000"
+                }
+            },
+            {
                 "lineId": "IDFM:C01413",
                 "lineName": "N01",
                 "lineLogo": "https://hexatransit.fr/assets/logo/fr-idf/bus/n01.png"

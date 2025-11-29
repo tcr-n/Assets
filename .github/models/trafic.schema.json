@@ -47,7 +47,21 @@
               "properties": {
                 "lineId": { "type": "string", "description": "GTFS or internal line identifier; may be empty string when not available." },
                 "lineName": { "type": "string", "description": "Human-readable line name (e.g. 'Métro 1')." },
-                "lineLogo": { "type": "string", "format": "uri", "description": "URL to the line logo image." },
+                "lineLogo": {
+                  "oneOf": [
+                    { "type": "string", "format": "uri", "description": "URL to the line logo image." },
+                    {
+                      "type": "object",
+                      "description": "Alternative: specify a colour-based logo as an object with required colour fields.",
+                      "required": ["color", "textColor"],
+                      "properties": {
+                        "color": { "type": "string", "description": "Hex color (without #) or color code for the logo background." },
+                        "textColor": { "type": "string", "description": "Hex color (without #) or color code for the logo text." }
+                      },
+                      "additionalProperties": false
+                    }
+                  ]
+                },
                 "lineLogoDark": { "type": ["string","null"], "format": "uri", "description": "Optional dark-mode logo URL.", "default": null },
                 "isDisabled": { "type": "boolean", "description": "Optional flag to mark a line as disabled." }
               },
