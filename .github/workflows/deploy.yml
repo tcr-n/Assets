@@ -14,13 +14,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Check trafic.json syntax
-        run: |
-          python -m json.tool trafic.json
-
-      - name: Check lines_picto.csv syntax
-        run: |
-          python -c "import csv; f=open('lines_picto.csv', encoding='utf-8'); next(csv.reader(f, delimiter=';')); f.seek(0); [row for row in csv.reader(f, delimiter=';')]"
+      - name: Run syntax checks
+        run: python .github/scripts/check_syntax.py
 
       - name: Check logo paths existence
         run: python .github/scripts/check_logo_path_existence.py
