@@ -1,0 +1,359 @@
+{
+    "companyId": "fr-isere",
+    "companyLogo": "https://hexatransit.fr/assets/logo/fr-isere/aura-38.png",
+    "width": 150.0,
+    "height": 100.0,
+    "gtfsRTUrl": "https://www.itinisere.fr/ftp/gtfsrt/GtfsRT.Disruptions.CG38.pb",
+    "lines": [
+        [
+            {
+                "transportLogo": "assets/icons/transportMode/bus_white.png",
+                "width": 50.0,
+                "height": 50.0
+            },
+            {
+                "lineId": "X04",
+                "lineName": "X04",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/X04.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "X05",
+                "lineName": "X05",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/X05.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "X06",
+                "lineName": "X06",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/X06.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "X07",
+                "lineName": "X07",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/X07.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "X08",
+                "lineName": "X08",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/X08.png",
+                "scale": 0.7
+            }
+        ],
+        [
+            {
+                "transportLogo": "assets/icons/transportMode/bus_white.png",
+                "width": 50.0,
+                "height": 50.0
+            },
+            {
+                "lineId": "T10",
+                "lineName": "T10",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T10.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T11",
+                "lineName": "T11",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T11.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T12",
+                "lineName": "T12",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T12.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T13",
+                "lineName": "T13",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T13.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T14",
+                "lineName": "T14",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T14.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T15",
+                "lineName": "T15",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T15.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T16",
+                "lineName": "T16",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T16.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T17",
+                "lineName": "T17",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T17.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T18",
+                "lineName": "T18",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T18.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T20",
+                "lineName": "T20",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T20.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T21",
+                "lineName": "T21",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T21.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T22",
+                "lineName": "T22",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T22.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T23",
+                "lineName": "T23",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T23.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T24",
+                "lineName": "T24",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T24.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T30",
+                "lineName": "T30",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T30.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T31",
+                "lineName": "T31",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T31.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T32",
+                "lineName": "T32",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T32.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T33",
+                "lineName": "T33",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T33.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T34",
+                "lineName": "T34",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T34.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T35",
+                "lineName": "T35",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T35.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T36",
+                "lineName": "T36",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T36.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T37",
+                "lineName": "T37",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T37.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T40",
+                "lineName": "T40",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T40.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T41",
+                "lineName": "T41",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T41.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T42",
+                "lineName": "T42",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T42.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T43",
+                "lineName": "T43",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T43.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T50",
+                "lineName": "T50",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T50.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T51",
+                "lineName": "T51",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T51.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T52",
+                "lineName": "T52",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T52.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T53",
+                "lineName": "T53",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T53.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T54",
+                "lineName": "T54",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T54.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T55",
+                "lineName": "T55",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T55.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T56",
+                "lineName": "T56",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T56.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T60",
+                "lineName": "T60",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T60.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T62",
+                "lineName": "T62",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T62.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T63",
+                "lineName": "T63",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T63.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T64",
+                "lineName": "T64",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T64.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T65",
+                "lineName": "T65",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T65.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T66",
+                "lineName": "T66",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T66.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T70",
+                "lineName": "T70",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T70.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T71",
+                "lineName": "T71",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T71.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T73",
+                "lineName": "T73",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T73.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T75",
+                "lineName": "T75",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T75.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T76",
+                "lineName": "T76",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T76.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T83",
+                "lineName": "T83",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T83.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T90",
+                "lineName": "T90",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T90.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T91",
+                "lineName": "T91",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T91.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T92",
+                "lineName": "T92",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T92.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T93",
+                "lineName": "T93",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T93.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T94",
+                "lineName": "T94",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T94.png",
+                "scale": 0.7
+            },
+            {
+                "lineId": "T95",
+                "lineName": "T95",
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-isere/bus/T95.png",
+                "scale": 0.7
+            }
+        ]
+    ]
+}
