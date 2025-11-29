@@ -304,6 +304,24 @@
                 "transportLogo": "assets/icons/transportMode/bus_white.png"
             },
             {
+                "lineId": "IDFM:C01071",
+                "lineName": "TVM",
+                "lineLogo": {
+                    "textDisplay": "TVM",
+                    "color": "216eb4",
+                    "textColor": "ffffff"
+                }
+            },
+            {
+                "lineId": "IDFM:C01318",
+                "lineName": "393",
+                "lineLogo": {
+                    "textDisplay": "393",
+                    "color": "82c8e6",
+                    "textColor": "000000"
+                }
+            },
+            {
                 "lineId": "IDFM:C01413",
                 "lineName": "N01",
                 "lineLogo": "https://hexatransit.fr/assets/logo/fr-idf/bus/n01.png"

@@ -71,6 +71,14 @@ foreach ($it as $file) {
 	}
 }
 
+
+// Sort merged entries by `companyId` ascending to have deterministic output order
+usort($merged, function ($a, $b) {
+	$aId = (is_array($a) && isset($a['companyId'])) ? $a['companyId'] : '';
+	$bId = (is_array($b) && isset($b['companyId'])) ? $b['companyId'] : '';
+	return strcmp($aId, $bId);
+});
+
 $output = json_encode($merged, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 if ($output === false) {
 	if (php_sapi_name() === 'cli') {
