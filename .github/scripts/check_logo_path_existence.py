@@ -5,7 +5,7 @@ import sys
 import argparse
 
 
-def gather_missing_logo_paths(root_dir, strip_prefix='https://clarifygdps.com/hexatransit/'):
+def gather_missing_logo_paths(root_dir, strip_prefix='https://hexatransit.fr/assets/'):
     missing = []
     files_read = []
     for dirpath, dirnames, filenames in os.walk(root_dir):
@@ -37,7 +37,7 @@ def gather_missing_logo_paths(root_dir, strip_prefix='https://clarifygdps.com/he
 def main():
     parser = argparse.ArgumentParser(description='Check logoPath entries in all lines_picto.csv files under a logo directory.')
     parser.add_argument('--logo-dir', default='logo', help='Directory to search recursively for lines_picto.csv (default: logo)')
-    parser.add_argument('--strip-prefix', default='https://clarifygdps.com/hexatransit/', help='URL prefix to strip from logoPath before checking existence')
+    parser.add_argument('--strip-prefix', default='https://hexatransit.fr/assets/', help='URL prefix to strip from logoPath before checking existence')
     args = parser.parse_args()
 
     if not os.path.isdir(args.logo_dir):
