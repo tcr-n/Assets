@@ -53,8 +53,9 @@
                     {
                       "type": "object",
                       "description": "Alternative: specify a colour-based logo as an object with required colour fields.",
-                      "required": ["color", "textColor"],
+                      "required": ["textDisplay", "color", "textColor"],
                       "properties": {
+                        "textDisplay": { "type": "string", "description": "Optional text to display on the logo (e.g. line number)." },
                         "color": { "type": "string", "description": "Hex color (without #) or color code for the logo background." },
                         "textColor": { "type": "string", "description": "Hex color (without #) or color code for the logo text." }
                       },

@@ -307,6 +307,7 @@
                 "lineId": "IDFM:C01206",
                 "lineName": "185",
                 "lineLogo": {
+                    "textDisplay": "185",
                     "color": "ff5a00",
                     "textColor": "000000"
                 }
