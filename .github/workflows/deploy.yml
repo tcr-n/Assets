@@ -58,6 +58,6 @@ jobs:
 
       - name: Copy files to server
         run: |
-          rsync -avz --delete --exclude='.git*' ./ jouca@217.182.174.221:/var/www/html/hexatransit
+          rsync -avz --delete --exclude='.git*' ./ jouca@217.182.174.221:/var/www/html/hexatransit/assets
         env:
           SSH_AUTH_SOCK: ${{ env.SSH_AUTH_SOCK }}
