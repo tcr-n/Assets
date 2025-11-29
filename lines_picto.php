@@ -25,7 +25,7 @@ if (!is_dir($baseDir)) {
 // If run from a web server, send CSV headers for download
 if (php_sapi_name() !== 'cli') {
     header('Content-Type: text/csv; charset=utf-8');
-    header('Content-Disposition: attachment; filename="lines_picto_combined.csv"');
+    header('Content-Disposition: attachment; filename="lines_picto.csv"');
 }
 
 $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($baseDir, RecursiveDirectoryIterator::SKIP_DOTS));

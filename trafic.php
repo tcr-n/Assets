@@ -25,7 +25,7 @@ if (!is_dir($baseDir)) {
 // If run from a web server, send JSON headers for download
 if (php_sapi_name() !== 'cli') {
 	header('Content-Type: application/json; charset=utf-8');
-	header('Content-Disposition: attachment; filename="trafic_combined.json"');
+	header('Content-Disposition: attachment; filename="trafic.json"');
 }
 
 $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($baseDir, RecursiveDirectoryIterator::SKIP_DOTS));
