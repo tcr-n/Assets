@@ -108,14 +108,9 @@
         "transportLogo": "assets/icons/transportMode/bus_white.png"
       },
       {
-        "lineId": "TCAR:91",
-        "lineName": "TEOR T1",
-        "lineLogo": "https://hexatransit.fr/assets/logo/fr-astuce/bus/T1.png"
-      },
-      {
         "lineId": "TCAR:98",
         "lineName": "Noctambus",
-        "lineLogo": "https://hexatransit.fr/assets/logo/fr-astuce/bus/98.png"
+        "lineLogo": "https://hexatransit.fr/assets/logo/fr-astuce/bus/Noctambus.png"
       }
     ],
     [
