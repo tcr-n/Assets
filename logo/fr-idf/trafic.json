@@ -306,11 +306,7 @@
             {
                 "lineId": "IDFM:C01071",
                 "lineName": "TVM",
-                "lineLogo": {
-                    "textDisplay": "TVM",
-                    "color": "216eb4",
-                    "textColor": "ffffff"
-                }
+                "lineLogo": "https://hexatransit.fr/assets/logo/fr-idf/bus/tvm.png"
             },
             {
                 "lineId": "IDFM:C01318",

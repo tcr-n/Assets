@@ -45,6 +45,7 @@ fr-idf;IDFM:C02529;T12;https://hexatransit.fr/assets/logo/fr-idf/tram/tram_12_co
 fr-idf;IDFM:C02344;T13;https://hexatransit.fr/assets/logo/fr-idf/tram/tram_13_couleur_RVB.png;TRAM;0;1
 fr-idf;IDFM:C02732;T14;https://hexatransit.fr/assets/logo/fr-idf/tram/tram_14_couleur_RVB.png;TRAM;0;1
 fr-idf;IDFM:C02666;C1;https://hexatransit.fr/assets/logo/fr-idf/cable/cable_1_couleur_RVB.png;CABLE_CAR;0;1
+fr-idf;IDFM:C01071;TVM;https://hexatransit.fr/assets/logo/fr-idf/bus/tvm.png;BUS;0;0
 fr-idf;IDFM:C01413;N01;https://hexatransit.fr/assets/logo/fr-idf/bus/n01.png;BUS;0;0
 fr-idf;IDFM:C01414;N02;https://hexatransit.fr/assets/logo/fr-idf/bus/n02.png;BUS;0;0
 fr-idf;IDFM:C01415;N11;https://hexatransit.fr/assets/logo/fr-idf/bus/n11.png;BUS;0;0
