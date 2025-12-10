@@ -30,31 +30,45 @@ def gather_trafic_json(root_dir):
                     continue
 
                 def process_company(company):
-                    aid = company.get('companyId')
-                    if not aid:
-                        return
+                    root_aid = company.get('companyId')
                     
-                    # Collect line IDs for this company
-                    line_ids = set()
+                    # Determine if we have a root companyId (single company case)
+                    has_root_company = root_aid is not None and isinstance(root_aid, str) and root_aid.strip()
+                    root_company_id = root_aid.strip() if has_root_company else None
+                    
+                    # Process each line
                     for group in company.get('lines', []) or []:
                         for item in group:
                             if not isinstance(item, dict):
                                 continue
+                            
+                            # Get lineId
                             lid = item.get('lineId')
                             if lid is None:
                                 continue
                             lid_s = str(lid).strip()
-                            if lid_s:
-                                line_ids.add(lid_s)
-                    
-                    # Handle companyId as either a string or a list of strings
-                    if isinstance(aid, str):
-                        if aid.strip() and line_ids:
-                            agencies[aid.strip()].update(line_ids)
-                    elif isinstance(aid, list):
-                        for cid in aid:
-                            if isinstance(cid, str) and cid.strip() and line_ids:
-                                agencies[cid.strip()].update(line_ids)
+                            if not lid_s:
+                                continue
+                            
+                            # Get line-specific companyId
+                            line_aid = item.get('companyId')
+                            
+                            if has_root_company:
+                                # Single company case: use line's companyId if present, otherwise use root
+                                if line_aid is not None and isinstance(line_aid, str):
+                                    cid = line_aid.strip()
+                                    if cid:
+                                        agencies[cid].add(lid_s)
+                                else:
+                                    agencies[root_company_id].add(lid_s)
+                            else:
+                                # Multiple companies case: line MUST have its own companyId
+                                if line_aid is None or not isinstance(line_aid, str):
+                                    print(f'Warning: Line {lid_s} has no companyId and no root companyId found. Skipping.')
+                                    continue
+                                cid = line_aid.strip()
+                                if cid:
+                                    agencies[cid].add(lid_s)
 
                 if isinstance(data, list):
                     for company in data:
