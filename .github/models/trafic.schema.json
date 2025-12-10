@@ -7,18 +7,8 @@
   "additionalProperties": false,
   "properties": {
     "companyId": {
-      "oneOf": [
-        {
-          "type": "string",
-          "description": "Unique identifier for the company (e.g. 'fr-idf')."
-        },
-        {
-          "type": "array",
-          "items": { "type": "string" },
-          "minItems": 1,
-          "description": "Array of unique identifiers for the company."
-        }
-      ]
+      "type": "string",
+      "description": "Unique identifier for the company (e.g. 'fr-idf')."
     },
     "companyLogo": {
       "type": "string",
@@ -74,7 +64,11 @@
                   ]
                 },
                 "lineLogoDark": { "type": ["string","null"], "format": "uri", "description": "Optional dark-mode logo URL.", "default": null },
-                "isDisabled": { "type": "boolean", "description": "Optional flag to mark a line as disabled." }
+                "isDisabled": { "type": "boolean", "description": "Optional flag to mark a line as disabled." },
+                "companyId": {
+                  "type": "string",
+                  "description": "Optional: specify which company this line belongs to. Required when root companyId is an array. Must be a string (not an array)."
+                }
               },
               "additionalProperties": false
             }
